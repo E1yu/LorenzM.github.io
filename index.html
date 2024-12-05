@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Lanz!</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <div class="hero">
+        <h1>Lorenz Lanz V. Malabanan</h1>
+        <p>1st Year BSIT-1B <BSIT-B></BSIT-B> | Tech Enthusiast | Aspiring Game Develeoper</p>
+    </div>
+
+    <div class="section about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate developer with experience in building interactive and dynamic web applications. I specialize in both front-end and back-end technologies and enjoy learning new skills to stay up-to-date with the latest in tech. I love creating solutions that make a difference and collaborating with like-minded individuals to bring ideas to life.
+        </p>
+
+        <p>
+            Inspired by Socrates, I believe in pursuing an examined life, <b>seeking knowledge</b>, and <em>staying curious</em>. My journey in tech is about connecting ideas and people—building things that make a difference.
+        </p>
+    </div>
+
+    <div class="section social-media">
+        <a href="https://www.youtube.com/@E1yuVAL" target="_blank">
+            <img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_you_tube_icon-icons.com_59065.png" alt="YouTube">
+            <h3>YouTube</h3>
+        </a>
+        <a href="https://facebook.com/renzsenpai/" target="_blank">
+            <img src="https://cdn.icon-icons.com/icons2/639/PNG/512/social_media_logo_facebook_icon-icons.com_59059.png" alt="Facebook">
+            <h3>Facebook</h3>
+        </a>
+        <a href="https://instagram.com/lorenzlanz_" target="_blank">
+            <img src="https://cdn.icon-icons.com/icons2/1233/PNG/512/1492718764-instagram_83597.png" alt="Instagram">
+            <h3>Instagram</h3>
+        </a>
+    </div>
+
+    <div class="chatbot-icon" onclick="toggleChatbot()">
+        <img src="https://cdn.icon-icons.com/icons2/3911/PNG/512/chatbot_logo_icon_247373.png" alt="Chatbot Icon">
+    </div>
+
+    <div class="chatbot-window" id="chatbot-window">
+        <h2>Live Support!</h2>
+        <p><em>Don't know what to do? type "help"</em></p>
+        <div class="chat-box" id="chat-box">
+            <div id="chat-output"></div>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message here">
+        <button onclick="handleMessage()">Send</button>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2024 | Property of Lorenz Malabanan</p>
+        <p>LYCEUM OF THE PHILIPPINES UNIVERSITY - BATANGAS</p>
+        <p>College of Computing Arts & Sciences</p>
+    </footer>
+    <script src="js/script.js"></script>
+
+    <div id="loader">
+        <div id="box"></div>
+        <div id="hill"></div>
+    </div>
+</body>
+</html>
+
